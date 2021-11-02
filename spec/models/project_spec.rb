@@ -13,10 +13,6 @@ RSpec.describe Project, type: :model do
         end
     end
 
-    class Title < ActiveRecord::Base
-        validates_presence_of :title
-    end
-
     context "scopes tests" do
         let(:params) { { title: "Title", description: "some description" } }
         before(:each) do

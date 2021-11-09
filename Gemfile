@@ -67,7 +67,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Gem mini racer
-# gem 'mini_racer'
+gem 'mini_racer'
 # Rspec
 group :development, :test do
   gem 'rspec-rails', '~> 3.7'

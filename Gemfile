@@ -2,7 +2,11 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #ruby '2.6.3'  
+=======
+ruby '2.7.0' 
+>>>>>>> cf20e700 (gemfile 2.7)
 =======
 ruby '2.7.0' 
 >>>>>>> cf20e700 (gemfile 2.7)

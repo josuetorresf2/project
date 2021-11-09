@@ -2,7 +2,11 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #ruby '2.7.0'  
+=======
+ruby '2.7.0'
+>>>>>>> 6a9987b (Changes for heroku and circleci)
 =======
 ruby '2.7.0'
 >>>>>>> 6a9987b (Changes for heroku and circleci)

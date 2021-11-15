@@ -74,4 +74,4 @@ group :development, :test do
 end
 
 #Devise 
-gem 'devise'
+gem 'devise' 

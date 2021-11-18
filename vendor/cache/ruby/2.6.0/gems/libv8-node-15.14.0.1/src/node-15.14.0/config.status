@@ -1,0 +1,3 @@
+#!/bin/sh
+set -x
+exec ./configure --openssl-no-asm --without-npm --shared --with-intl=full-icu --experimental-enable-pointer-compression

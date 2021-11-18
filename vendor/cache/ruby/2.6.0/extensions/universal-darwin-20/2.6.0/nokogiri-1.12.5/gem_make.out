@@ -1,0 +1,63 @@
+current directory: /Users/josuetorresf2/Desktop/Fall 21/3300/project/project/vendor/cache/ruby/2.6.0/gems/nokogiri-1.12.5/ext/nokogiri
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20211118-1235-92l73l.rb extconf.rb
+checking for whether -std=c99 is accepted as CFLAGS... yes
+checking for whether -Wno-declaration-after-statement is accepted as CFLAGS... yes
+checking for whether -g is accepted as CFLAGS... yes
+checking for whether -Winline is accepted as CFLAGS... yes
+checking for whether -Wmissing-noreturn is accepted as CFLAGS... yes
+checking for whether -Wno-error=unused-command-line-argument-hard-error-in-future is accepted as CFLAGS... no
+Building nokogiri using packaged libraries.
+Static linking is enabled.
+Cross build is disabled.
+Ignoring bcrypt-3.1.16 because its extensions are not built. Try: gem pristine bcrypt --version 3.1.16
+checking for iconv.h... yes
+checking for gzdopen() in -lz... yes
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/$(RUBY_BASE_NAME)
+	--help
+	--clean
+	--prevent-strip
+	--enable-system-libraries
+	--disable-system-libraries
+	--use-system-libraries
+	--enable-system-libraries
+	--disable-system-libraries
+	--use-system-libraries
+	--enable-static
+	--disable-static
+	--enable-cross-build
+	--disable-cross-build
+	--with-zlib-dir
+	--without-zlib-dir
+	--with-zlib-include
+	--without-zlib-include=${zlib-dir}/include
+	--with-zlib-lib
+	--without-zlib-lib=${zlib-dir}/lib
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require': cannot load such file -- mini_portile2/version (LoadError)
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /Users/josuetorresf2/Desktop/Fall 21/3300/project/project/vendor/cache/ruby/2.6.0/gems/mini_portile2-2.6.1/lib/mini_portile2.rb:1:in `<top (required)>'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from extconf.rb:408:in `process_recipe'
+	from extconf.rb:752:in `<main>'
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /Users/josuetorresf2/Desktop/Fall 21/3300/project/project/vendor/cache/ruby/2.6.0/extensions/universal-darwin-20/2.6.0/nokogiri-1.12.5/mkmf.log
+
+extconf failed, exit code 1

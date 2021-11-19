@@ -1,5 +1,5 @@
 current directory: /Users/josuetorresf2/Desktop/Fall 21/3300/project/project/vendor/cache/ruby/2.6.0/gems/sqlite3-1.4.2/ext/sqlite3
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20211118-3972-1ljzkk9.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20211118-32606-q70zsu.rb extconf.rb
 checking for sqlite3.h... yes
 checking for pthread_create() in -lpthread... yes
 checking for -ldl... yes
@@ -618,4 +618,4 @@ ld: warning: directory not found for option '-L/Applications/Xcode.app/Contents/
 
 current directory: /Users/josuetorresf2/Desktop/Fall 21/3300/project/project/vendor/cache/ruby/2.6.0/gems/sqlite3-1.4.2/ext/sqlite3
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 sqlite3_native.bundle ./.gem.20211118-3972-1v05zi3/sqlite3
+/usr/bin/install -c -m 0755 sqlite3_native.bundle ./.gem.20211118-32606-1ua1hlo/sqlite3

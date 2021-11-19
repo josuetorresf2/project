@@ -122,7 +122,7 @@ checked program was:
 ld: warning: directory not found for option '-L/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.6.Internal.sdk/usr/local/lib'
 Undefined symbols for architecture arm64:
   "_rb_enc_interned_str", referenced from:
-      _t in conftest-0a946c.o
+      _t in conftest-43151e.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:

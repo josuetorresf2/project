@@ -1,5 +1,5 @@
 current directory: /Users/josuetorresf2/Desktop/Fall 21/3300/project/project/vendor/cache/ruby/2.6.0/gems/bootsnap-1.9.1/ext/bootsnap
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20211118-3972-56pmlr.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20211118-32606-1oieko4.rb extconf.rb
 creating Makefile
 
 current directory: /Users/josuetorresf2/Desktop/Fall 21/3300/project/project/vendor/cache/ruby/2.6.0/gems/bootsnap-1.9.1/ext/bootsnap
@@ -368,4 +368,4 @@ ld: warning: directory not found for option '-L/Applications/Xcode.app/Contents/
 
 current directory: /Users/josuetorresf2/Desktop/Fall 21/3300/project/project/vendor/cache/ruby/2.6.0/gems/bootsnap-1.9.1/ext/bootsnap
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20211118-3972-q04qit/bootsnap
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20211118-32606-1oztyxb/bootsnap

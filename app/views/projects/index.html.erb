@@ -1,4 +1,9 @@
 <p id="notice"><%= notice %></p>
+<body>
+  <div style="background-color: #EBEBEB;">
+    <h1 class="text-center"> Welcome Home </h1>
+  </div>
+</body>
 
 <h1>Projects</h1>
 
@@ -16,8 +21,8 @@
       <tr>
         <td><%= project.title %></td>
         <td><%= project.description %></td>
-        <td><%= link_to 'Show', project %></td>
-        <td><%= link_to 'Edit', edit_project_path(project) %></td>
+        <td><%= link_to 'Show',project %>|</td>
+        <td><%= link_to 'Edit', edit_project_path(project) %>|</td>
         <td><%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
@@ -26,4 +31,8 @@
 
 <br>
 
-<%= link_to 'New Project', new_project_path %>
+<ul class="list-unstyled list-inline text-center py-2">
+  <li class="list-inline-item">
+    <%= link_to 'New Project', new_project_path %>
+  </li>
+</ul>

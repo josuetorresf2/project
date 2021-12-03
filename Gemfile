@@ -75,3 +75,5 @@ end
 gem 'devise'
 
 gem 'bootstrap', '~> 4.6.1'
+
+gem 'jquery-rails'

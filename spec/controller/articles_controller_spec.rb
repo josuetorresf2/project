@@ -1,14 +1,12 @@
 require 'rails_helper'
 
-RSpec.describe ArticlesController, type: :controller do
+RSpec.describe ProjectsController, type: :controller do
 
     # Add this
     login_user
-
     let(:valid_attributes) {
         { :title => "Test title!", :description => "This is a test description", :status => "draft" }
     }
-
     let(:valid_session) { {} }
 
     describe "GET #index" do

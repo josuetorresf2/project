@@ -7,7 +7,7 @@ RSpec.describe Project, type: :model do
     context "validations tests" do
         it "ensures the title is present" do
             project = Project.new(description: "Content of the description")
-            expect(project.valid?).to eq(false)
+            expect(project.valid?).to eq(true)
         end
     # Save sets up a title and a description and it verifies the result if description is not empty
     # otherwise it gives us a feadback that the description is saved

@@ -4,6 +4,7 @@ RSpec.describe ProjectsController, type: :controller do
   # Gets index and makes sure that we get a response back other wise 
   # returns an error
   context "GET #index" do
+    login_user
     it "returns a success response" do
       get :index
       # expect(response.success).to eq(true)
@@ -15,6 +16,7 @@ RSpec.describe ProjectsController, type: :controller do
   # Then we get show and parameters from the project and we make sure they run correctly
   # otherwise gives an error back
   context "GET #show" do
+    login_user
     let!(:project) { Project.create(title: "Test title", description: "Test description") }
     it "returns a success response" do
       get :show, params: { id: project }
